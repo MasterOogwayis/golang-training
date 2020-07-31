@@ -1,8 +1,15 @@
 package main
 
+import (
+	"fmt"
+	"go/constant"
+)
+
 func main() {
+
 	_, n, s := numbers()
-	println(n, s)
+	fmt.Println(n, s)
+	fmt.Println(constant.Unknown)
 }
 
 func numbers() (int, int, string) {
