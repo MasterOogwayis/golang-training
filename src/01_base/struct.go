@@ -3,17 +3,31 @@ package main
 import "fmt"
 
 func main() {
-	var structPointer *Books
+	var student Student = Student{Human{name: "zsw", age: 18, address: "Earth"}, "3"}
 
-	var book Books = Books{"title", "author", "subject", 1}
-	fmt.Println(book)
-	
-	structPointer = &book
-	setTitle(structPointer)
-	fmt.Println(structPointer)
+	fmt.Println(student)
+
+	student.Human.address = "Mars"
+
+	fmt.Println(student)
+
 	//t1()
 	//t2()
 }
+
+
+type Human struct {
+	name string
+	age int
+	address string
+}
+
+type Student struct {
+	Human
+	class string
+}
+
+
 func setTitle(book *Books)  {
 	book.title = "new title"
 }
@@ -55,4 +69,15 @@ type Books struct {
 	author  string
 	subject string
 	bookId  int
+}
+
+func tt() {
+	var structPointer *Books
+
+	var book Books = Books{"title", "author", "subject", 1}
+	fmt.Println(book)
+
+	structPointer = &book
+	setTitle(structPointer)
+	fmt.Println(structPointer)
 }

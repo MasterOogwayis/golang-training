@@ -17,8 +17,7 @@ func testInterface()  {
 	kvs["attr"] = MapMembers{"title"}
 
 	fmt.Println(kvs)
-	var kp *map[string]interface{} = &kvs
-	fmt.Println(*kp)
+	fmt.Println(&kvs)
 
 
 	

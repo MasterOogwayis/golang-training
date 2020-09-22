@@ -3,7 +3,20 @@ package main
 import "fmt"
 
 func main() {
+	var arr [10]int = [10]int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
 
+	var slice []int = arr[:]
+
+	s := make([]int, 5, 10)
+
+	count := copy(s, slice)
+
+	fmt.Printf("%d %d", s, count)
+
+
+}
+
+func t0() {
 	arr := [5]int{1, 2, 7, 4, 5}
 
 	for index, i := range arr {
@@ -20,10 +33,7 @@ func main() {
 
 	cr := [7]int{1, 2, 3, 4, 5, 6, 7}
 
-
 	length(cr[0:])
-
-
 }
 
 func length(arr []int) int {
