@@ -13,7 +13,6 @@ func main() {
 
 	fmt.Printf("%d %d", s, count)
 
-
 }
 
 func t0() {

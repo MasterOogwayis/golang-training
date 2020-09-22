@@ -8,7 +8,7 @@ func main() {
 
 }
 
-func testInterface()  {
+func testInterface() {
 
 	var kvs map[string]interface{} = make(map[string]interface{})
 
@@ -19,8 +19,6 @@ func testInterface()  {
 	fmt.Println(kvs)
 	fmt.Println(&kvs)
 
-
-	
 	var m = MapMembers{title: "title"}
 	m.title = "1"
 	fmt.Println(m)
@@ -30,7 +28,7 @@ func testInterface()  {
 
 }
 
-func testMap()  {
+func testMap() {
 	var kvs map[string]string
 
 	kvs = make(map[string]string)

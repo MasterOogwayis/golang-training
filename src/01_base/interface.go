@@ -11,27 +11,20 @@ func main() {
 
 }
 
-
 type Phone interface {
 	call()
 }
 
 type IPhone struct {
-	
 }
 
 type Nokia struct {
-
 }
 
-func (iPhone IPhone) call()  {
+func (iPhone IPhone) call() {
 	fmt.Println("iPhone ...")
 }
 
-func (nokia Nokia) call()  {
+func (nokia Nokia) call() {
 	fmt.Println("Nokia ...")
 }
-
-
-
-

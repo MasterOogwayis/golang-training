@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 /**
- 类型转换
- */
+类型转换
+*/
 func main() {
 	expression()
 }
 
-func expression()  {
+func expression() {
 	var a int = 10
 	var b int = 2
 	var sum float32
@@ -18,8 +18,4 @@ func expression()  {
 
 	fmt.Printf("sum = %v", sum)
 
-
 }
-
-
-

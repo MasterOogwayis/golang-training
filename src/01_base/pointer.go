@@ -18,12 +18,11 @@ func main() {
 
 	var ptr *int
 
-	if (ptr == nil) {
+	if ptr == nil {
 		fmt.Println("is")
 	} else {
 		fmt.Println("is not")
 	}
-
 
 	//testPointer()
 }

@@ -15,10 +15,9 @@ func main() {
 	//t2()
 }
 
-
 type Human struct {
-	name string
-	age int
+	name    string
+	age     int
 	address string
 }
 
@@ -27,11 +26,9 @@ type Student struct {
 	class string
 }
 
-
-func setTitle(book *Books)  {
+func setTitle(book *Books) {
 	book.title = "new title"
 }
-
 
 func t2() {
 	var book1 Books

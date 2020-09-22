@@ -10,7 +10,6 @@ func main() {
 	b := append(slice, 12)
 	fmt.Println(b)
 
-
 	c := make([]int, len(b), 2*cap(b))
 
 	copy(c, b)

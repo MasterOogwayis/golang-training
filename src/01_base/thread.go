@@ -14,10 +14,9 @@ func main() {
 		fmt.Println(i)
 	}
 
-	
 }
 
-func testChannel()  {
+func testChannel() {
 	//go say("World")
 
 	var ch = make(chan int, 1)
@@ -30,13 +29,12 @@ func testChannel()  {
 	fmt.Println("a")
 }
 
-func getCh(ch chan int)  {
+func getCh(ch chan int) {
 	time.Sleep(2 * time.Second)
-	fmt.Println(<- ch)
+	fmt.Println(<-ch)
 }
 
-
-func testAsync()  {
+func testAsync() {
 	s := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
 	ch := make(chan int, 1)
 
@@ -65,14 +63,12 @@ func say(s string) {
 	}
 }
 
-
 func Fibonacci(n int, ch chan int) {
-	x,y := 0,1
+	x, y := 0, 1
 	for i := 0; i < n; i++ {
 		ch <- x
-		x,y=y,x+y
+		x, y = y, x+y
 	}
 	close(ch)
-
 
 }

@@ -9,8 +9,8 @@ const b = "String"
 
 const (
 	Unknown = 0
-	Female = 1
-	Male = 2
+	Female  = 1
+	Male    = 2
 )
 
 const (
@@ -34,7 +34,6 @@ func main() {
 	area = LENGTH * WIDTH
 	fmt.Printf("面积为 : %d", area)
 	fmt.Println(a, b, c)
-
 
 	fmt.Println(A, B, C)
 

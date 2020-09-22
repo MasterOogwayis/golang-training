@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42f885ba-c2c0-4e57-af22-cb4993bfddeb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/app.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,8 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -46,7 +47,16 @@
       <recent name="G:\go\golang-training\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build golang-training/src/web">
+  <component name="RunManager" selected="Go Build.go build app.go">
+    <configuration name="go build app.go" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="golang-training" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/web/app.go" />
+      <package value="golang-training" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build golang-training/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang-training" />
       <working_directory value="$PROJECT_DIR$" />
@@ -119,6 +129,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="646" y="294" key="#Go_Modules/0.0.1707.920@0.0.1707.920" timestamp="1597632151862" />
+    <state x="548" y="78" key="#go_build_app.go" timestamp="1600766023875">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="548" y="78" key="#go_build_app.go/0.0.1707.920@0.0.1707.920" timestamp="1600766023875" />
     <state x="548" y="77" key="#go_build_golang-training/src/01_base" timestamp="1597657261384">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -143,34 +157,34 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="548" y="77" key="#go_build_golang-training/src/01_base_(5)/0.0.1707.920@0.0.1707.920" timestamp="1597910493693" />
-    <state x="382" y="0" key="CommitChangelistDialog2" timestamp="1600754149886">
+    <state x="382" y="0" key="CommitChangelistDialog2" timestamp="1600765300360">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="382" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1600754149886" />
+    <state x="382" y="0" key="CommitChangelistDialog2/0.0.1707.920@0.0.1707.920" timestamp="1600765300360" />
     <state x="742" y="315" width="567" height="457" key="EnvironmentVariablesDialog" timestamp="1597634601211">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="742" y="315" width="567" height="457" key="EnvironmentVariablesDialog/0.0.1707.920@0.0.1707.920" timestamp="1597634601211" />
-    <state x="634" y="216" key="FileChooserDialogImpl" timestamp="1597634617720">
+    <state x="634" y="216" key="FileChooserDialogImpl" timestamp="1600765854494">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="634" y="216" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1597634617720" />
-    <state width="1663" height="236" key="GridCell.Tab.0.bottom" timestamp="1600754100740">
+    <state x="634" y="216" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1600765854494" />
+    <state width="1663" height="236" key="GridCell.Tab.0.bottom" timestamp="1600765916256">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="236" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1600754100740" />
-    <state width="1663" height="236" key="GridCell.Tab.0.center" timestamp="1600754100740">
+    <state width="1663" height="236" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1600765916256" />
+    <state width="1663" height="236" key="GridCell.Tab.0.center" timestamp="1600765916255">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="236" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1600754100740" />
-    <state width="1663" height="236" key="GridCell.Tab.0.left" timestamp="1600754100740">
+    <state width="1663" height="236" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1600765916255" />
+    <state width="1663" height="236" key="GridCell.Tab.0.left" timestamp="1600765916255">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="236" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1600754100740" />
-    <state width="1663" height="236" key="GridCell.Tab.0.right" timestamp="1600754100740">
+    <state width="1663" height="236" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1600765916255" />
+    <state width="1663" height="236" key="GridCell.Tab.0.right" timestamp="1600765916255">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state width="1663" height="236" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1600754100740" />
+    <state width="1663" height="236" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1600765916255" />
     <state width="1663" height="292" key="GridCell.Tab.1.bottom" timestamp="1600681475093">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -187,10 +201,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state width="1663" height="292" key="GridCell.Tab.1.right/0.0.1707.920@0.0.1707.920" timestamp="1600681475092" />
-    <state x="355" y="105" key="SettingsEditor" timestamp="1600764802253">
+    <state x="355" y="105" key="SettingsEditor" timestamp="1600765965603">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1600764802253" />
+    <state x="355" y="105" key="SettingsEditor/0.0.1707.920@0.0.1707.920" timestamp="1600765965603" />
     <state x="446" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600754155154">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

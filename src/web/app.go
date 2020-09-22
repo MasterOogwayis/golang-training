@@ -8,14 +8,14 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/", sayHelloName)
+	http.HandleFunc("/", api)
 	err := http.ListenAndServe(":9090", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
 }
 
-func sayHelloName(w http.ResponseWriter, r *http.Request)  {
+func api(w http.ResponseWriter, r *http.Request) {
 	// 解析参数，默认不会解析的
 	r.ParseForm()
 	fmt.Println(r.Form)
@@ -29,6 +29,5 @@ func sayHelloName(w http.ResponseWriter, r *http.Request)  {
 	}
 
 	fmt.Fprintf(w, "Hello zsw")
-
 
 }
